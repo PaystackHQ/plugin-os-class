@@ -26,8 +26,8 @@
         {
             Braintree_Configuration::environment('sandbox');
             Braintree_Configuration::merchantId('6sydfqcpfbzmcj7w');
-            Braintree_Configuration::publicKey('bytsnfpmh8f2v637');
-            Braintree_Configuration::privateKey('88396fd311a6e1016a903bf08660065f');
+            Braintree_Configuration::publicKey('REMOVED');
+            Braintree_Configuration::privateKey('REMOVED');
         }
 
         public static function button($amount = '0.00', $description = '', $itemnumber = '101', $extra_array = null) {
